@@ -1,0 +1,34 @@
+@font-face {font-family:myicon;font-weight:normal;font-style:normal;
+src:url('../font/iconfont.ttf') format('truetype'); /* iOS 4.1- */
+src:url('../font/iconfont.eot?#iefix') format('embedded-opentype'),
+url('../font/iconfont.woff') format('woff'),
+url('../font/iconfont.svg#SingleMaltaRegular') format('svg');
+}
+
+.myicon-search,.myicon-user,.myicon-add,.myicon-left,.myicon-right,.myicon-n1,.myicon-n2,.myicon-n3,.myicon-n4,.myicon-n5,.myicon-n6,.myicon-n7,.myicon-n8,.myicon-n9,.myicon-n10
+,ul.mediaList a
+{
+    font-family:myicon;
+    font-size:100%;
+    font-weight:normal;
+    font-style:normal;
+    line-height:150%;
+    display:inline-block;
+    text-decoration:none;
+    -webkit-font-smoothing:antialiased;
+}
+.myicon-search:before{content:"\00C0";}
+.myicon-user:before{content:"\00C1";}
+.myicon-add:before{content:"\00C2";}
+.myicon-left:before{content:"\00C3";}
+.myicon-right:before{content:"\00C4";}
+.myicon-n1:before{content:"\00C5";}
+.myicon-n2:before{content:"\00C6";}
+.myicon-n3:before{content:"\00C7";}
+.myicon-n4:before{content:"\00C8";}
+.myicon-n5:before{content:"\00C9";}
+.myicon-n6:before{content:"\00CA";}
+.myicon-n7:before{content:"\00CB";}
+.myicon-n8:before{content:"\00CC";}
+.myicon-n9:before{content:"\00CD";}
+.myicon-n10:before{content:"\00CE";}

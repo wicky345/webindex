@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    .header,.footer{
+     background:mediumturquoise;
+     height:100px;
+     text-align:center;
+    }
+    .container{ 
+        padding:0px 100px 0px 100px;
+    }
+    .middle{
+     width:100%;
+     background:orange;
+     height:100px;
+     float:left;
+ 
+    }
+    .left{
+        width:100px;
+        height:100px;
+        background:olive;
+        float:left;
+        margin-left:-100%;
+        position:relative;
+        left:-100px;
+    }
+    .right{
+        width:100px;
+        height:100px;
+        background:navajowhite;
+        position:relative;
+        float:left;
+        margin-left:-100px;
+        right:-100px;
+    }
+    .footer{
+        clear:both;
+    }
+        </style>
+</head>
+<body>
+   <div class="header">这是头部信息</div> 
+   <div class="container">
+       <div class="middle">这是中间自适应内容</div>
+       <div class="left">这是左边固定内容</div>
+       <div class="right">这是右边固定内容</div>
+   </div>
+   <div class="footer">这是底部信息</div>
+</body>
+</html>

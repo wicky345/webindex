@@ -1,0 +1,188 @@
+.top{
+    width:100%;
+    background-color:#f5f6f7;
+}
+.header{
+    padding:auto;
+    margin:0px auto; 
+    width:80%;
+    height:100px;
+    vertical-align:middle;
+}
+.header .img{
+    width:498px;
+    height:51px;
+    float:left;
+    margin-top:25px;
+}
+.header .search{
+    position: relative;
+    float:left;
+    width:246px;
+    height:32px;
+    margin-left:50px;
+    margin-top:34px;
+}
+.search .searchMsg{
+    height:32px; 
+    width:246px;
+    border-radius:20px;
+    border:1px solid;
+    padding:0px 0px 0px 20px;
+} 
+.search .myicon-search{
+    z-index: 5;
+    position:absolute;
+    left:220px;
+    top:3px;
+    font-size:20px;
+}
+
+.header .user{
+    width:196px;
+    height:34px;
+    float:left;
+    position:relative;
+    margin-left:50px;
+    margin-top:34px;
+}
+.user .myicon-user{
+    z-index:5;
+    position:absolute;
+    top:3px;
+    left:19px;
+    font-size:20px;
+    color:#25b053;
+}
+.user button{
+    width:196px;
+    height:34px;
+    border-radius:20px;
+    color:#25b053;
+    background-color:#fff;
+    border:1px solid #25b053;
+    padding:10px 25px 10px 29px;
+}
+.nav{
+    width:100%;
+    background-color:#000;
+    height:50px;
+    padding:0px auto;
+    text-align:center;
+}
+.nav ul{
+    width:70%;
+    margin:0px auto;
+}
+.nav ul li{
+    width:120px;
+    list-style: none;
+    display:block;
+    float:left;
+    line-height:50px;
+}
+.nav ul li:first-child{
+    color:#FFF;
+    background:#25b053;
+}
+.nav ul li a{
+text-decoration:none;
+color:#fff;
+}
+.wrapper img{
+    max-width:1334px;
+    height:100%;
+}
+.T-title{
+    text-align:center;
+}
+.list{
+    height:300px;
+}
+.TService ul{
+    margin:0px auto;
+    width:900px;
+}
+.TService li{
+    list-style: none;
+    float:left;
+    display:block;
+    width:120px;
+    height:100px;
+    padding-right:80px;
+    padding-top:40px;
+    text-align:center;
+}
+.TService li:last-child{
+    list-style: none;
+    float:left;
+    display:block;
+    width:100px;
+    height:100px;
+    padding-right:0px;
+    text-align:center;
+}
+.TService ul li i{
+   font-size:40px;
+    color:#25b053;
+}
+.more{
+    width:180px;
+    height:50px;
+    position:relative;
+    margin:0px auto;
+    color:#666666;
+}
+ .more .myicon-add{
+    font-size:16px;
+    position:absolute;
+    left:40px;
+    top:14px;
+    z-index:5;
+}
+.more button{
+    width:180px;
+    height:50px;
+    border-radius:27px;
+    background-color:#fff;
+    border:1px solid #666666;
+    text-align:center;
+}
+ .aboutUs{
+    background-image:url(../images/bgimg.jpg);
+    z-index:-1;
+     max-width:1335;
+    height:500px;
+    background-repeat: repeat-y; 
+} 
+.aboutUs img{
+    float:left;
+    width:250px;
+    height:333px;
+    margin-right:80px;
+}
+.aboutUs{
+    text-align:center;
+}
+.aboutUs_list{
+    padding-top:14px;
+}
+.aboutUs .container{
+    width:900px;
+    margin:30px auto;
+}
+.container li{
+    list-style: none;
+    float:left;
+    display:block;
+    padding-right:16px;
+    text-align:center;
+}
+.container li button{
+    width:80px;
+    height:32px;
+    background:none;
+    border-radius:16px;
+    border:1px solid #FFF;
+    color:#fff;
+}

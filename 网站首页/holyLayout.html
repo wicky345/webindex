@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>圣杯布局</title>
+    <style>
+    .header{
+        height:50px;
+        background-color:aliceblue;
+    }
+    .container{
+        padding: 0px 220px 0px 200px;
+    }
+    .middle{
+        width:100%;
+        background-color:red;
+        float:left;
+        position:relative;
+        height:100px;
+    }
+    .left{
+        margin-left:-100%;
+        left:-200px;
+        width:200px;
+        background-color:green;
+        float:left;
+        position:relative;
+        height:100px;
+    }
+    .right{
+        margin-left:-220px;
+        right:-220px;
+        background-color:aqua;
+        float:left;
+        position:relative;
+        height:100px;
+        width:220px;
+    }
+    .footer{
+        background-color:yellow;
+        clear:both;
+    }
+    </style>
+</head>
+<body>
+<div class="header">这是头部</div>
+<div class="container">
+    <div class="middle">这是文档自适应中间部分</div>
+    <div class="left">这是固定的左边部分</div>
+    <div class="right">这是固定的右边部分</div>
+</div>
+<div class="footer">这是文档的尾部</div>
+</body>
+</html>
